@@ -1,0 +1,15 @@
+From: Security Team <no-reply@secure-accountverify.net>
+Return-Path: <bounce@totally-different-domain.ru>
+Reply-To: attacker@another-domain.xyz
+Authentication-Results: mx.example.com; spf=fail smtp.mailfrom=secure-accountverify.net; dkim=fail; dmarc=fail
+To: user@example.com
+Subject: URGENT: Your account will be suspended in 24 hours
+Content-Type: text/plain; charset="utf-8"
+
+Dear Customer,
+
+We have detected unusual activity on your account. To avoid permanent
+suspension, you must verify your identity immediately.
+
+(This is a fictional test .eml file for use with analyze_headers.py —
+not a real email, not sent to anyone.)
